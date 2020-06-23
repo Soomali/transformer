@@ -13,6 +13,11 @@ class Transformer:
 
     max_dict = {}
     def __init__(self):
+        """
+        data is the pandas dataframe and col s the column of that 
+        general usage of the functions is
+        function(data,'colofdata')
+        """
         self.foundmostlength = False
         
     
